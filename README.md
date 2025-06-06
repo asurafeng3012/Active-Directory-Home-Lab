@@ -18,20 +18,15 @@ The project covers:
 ## **2. Folder Structure**
 
 ### **Configuration Files**
-- **[Sysmon Configuration File](configs/sysmon-config.xml)**: Sysmon rules for monitoring malicious behaviors.
-- **[Splunk Outputs.conf](configs/splunk-outputs.md)**: Configuration for Splunk forwarding.
-- **[Splunk Inputs.conf](configs/splunk-inputs.md)**: Configuration for event log ingestion.
+- **[Sysmon Configuration File](configurations/sysmon-config.xml)**: Sysmon rules for monitoring malicious behaviors.
+- **[Splunk Inputs.conf](configurations/splunk-inputs.md)**: Configuration for event log ingestion.
 
 ### **Guides and Documentation**
-- **[Setup Guide](docs/setup-guide.md)**: Step-by-step instructions for setting up the home lab environment.
-- **[Splunk Setup](docs/Splunk-setup.md)**: Detailed guide to configuring Splunk on an Ubuntu server.
-- **[Splunk Universal Forwarder & Sysmon Setup](docs/Splunk%20Universal%20Forwarder%20&%20Sysmon%20Setup.md)**: Guide for installing and configuring Sysmon and Splunk Universal Forwarder.
-- **[Kali Linux Attacks & Atomic Red Team Guide](docs/Kali%20Linux%20attacks%20%26%20Atomic%20Red%20Team%20guide.md)**: Steps for simulating attacks and analyzing telemetry.
-- **[Active Directory Setup Guide](docs/AD-Setup.md)**: Instructions for configuring Active Directory and joining client machines to the domain.
-- **[Troubleshooting Guide](docs/troubleshooting.md)**: Solutions to common issues encountered during the setup process.
+- **[Project-Setup](documents/Project-Setup.md)**: Step-by-step instructions for setting up the home lab environment, Splunk on an Ubuntu Server, installing and configuring Sysmon as well as Splunk Universal Forwarder, and configuring Active Directory and joining client machines to the domain.
+- **[Kali Linux Attack using Atomic Red Team](documents/Kali%20Linux%20Attack%20using%20Atomic%20Red%20Team.md)**: Steps for simulating attacks using Atomic Red Team and analyzing telemetry.
 
 ### **Network Diagram**
-**![Active Directory Network Diagram](https://github.com/Divyansh121699/ActiveDirectory-HomeLab/blob/main/docs/Active%20Directory%20Network%20Diagram.png)**
+**![Active Directory Network Diagram](https://github.com/asurafeng3012/Active-Directory-Home-Lab/blob/main/documents/Active%20Directory%20HomeLab.jpg)**
 
 ---
 
@@ -48,11 +43,11 @@ The project covers:
 ---
 
 ## **4. Setup Instructions**
-1. Follow the **[Setup Guide](docs/setup-guide.md)** to install virtual machines and configure the network.
-2. Install and configure Splunk by referencing the **[Splunk Setup Guide](docs/Splunk-setup.md)**.
-3. Configure Sysmon and Splunk Universal Forwarder using the **[Sysmon Setup Guide](docs/Splunk%20Universal%20Forwarder%20%26%20Sysmon%20Setup.md)**.
-4. Set up and use Kali Linux for attack simulations as described in the **[Kali Linux Guide](docs/Kali%20Linux%20attacks%20%26%20Atomic%20Red%20Team%20guide.md)**.
-5. Configure Active Directory and join client machines using the **[AD Setup Guide](docs/AD-Setup.md)**.
+1. Follow the **[Project-Setup](documents/Project-Setup.md)** to install virtual machines and configure the network.
+2. Install and configure Splunk by referencing the **[Project-Setup](documents/Project-Setup.md)**.
+3. Configure Sysmon and Splunk Universal Forwarder using the **[Project-Setup](documents/Project-Setup.md)**.
+4. Set up and use Kali Linux for attack simulations as described in the **[Kali Linux Attack using Atomic Red Team](documents/Kali%20Linux%20Attack%20using%20Atomic%20Red%20Team.md)**.
+5. Configure Active Directory and join client machines using the **[Project-Setup](documents/Project-Setup.md)**.
 
 ---
 
@@ -60,5 +55,5 @@ The project covers:
 This project was inspired by the following YouTube tutorial series:
 - **[Active Directory Project Tutorial](https://www.youtube.com/watch?v=5OessbOgyEo&t=55s)**  
   Special thanks to the **MyDFIR** for providing detailed guidance on setting up an Active Directory lab environment.
-
+  
 ---
