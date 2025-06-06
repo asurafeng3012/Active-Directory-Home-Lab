@@ -20,7 +20,7 @@ This project is a home lab simulation of a real-world Active Directory environme
 
 ## 🔧 Lab Environment
 
-- **Domain**: MyDFIR  
+- **Domain**: asura  
 - **Network**: 192.168.10.0/24  
 - **Splunk Server**: 192.168.10.10  
 - **Active Directory**: 192.168.10.7  
@@ -53,8 +53,7 @@ This project is a home lab simulation of a real-world Active Directory environme
 
 1. Download **Ubuntu Server** from [ubuntu.com](https://ubuntu.com)
 2. Username: `asurafeng`
-3. Password: `Capricorn3012`
-4. Run:  
+3. Run:  
    ```bash
    sudo apt-get update && sudo apt-get upgrade -y
    ```
